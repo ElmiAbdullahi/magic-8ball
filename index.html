@@ -18,11 +18,21 @@
 <body>
     <header>
         <img src="/assets/html_css_js.png">
-        <h1>Web App</h1>
+        <h1>🎱 Magic 8ball</h1>
     </header>
 
     <main>
+        <section id="question-section">
+            <label>What is your question?</label>
+            <textarea id="asked-question"></textarea>
+            <button id="ask-button">❓</button>
+        </section>
 
+        <section id="answer-section" class="hidden">
+            <p id="question-display"></p>
+            <span class="magic-ball">🎱 </span>
+            <p id="answer-display"></p>
+        </section>
     </main>
 
     <footer>&copy;2022 Software Developer</footer>
