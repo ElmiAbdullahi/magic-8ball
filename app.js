@@ -23,7 +23,7 @@ const answers = [
     'Better not tell you now',
     'Cannot predict now',
     'Concentrate and ask again',
-    'Don’t count on it',
+    'Dont count on it',
     'My reply is no',
     'My sources say no',
     'Outlook not so good',
@@ -33,7 +33,7 @@ const answers = [
   // get user input
   // use user input to update state 
   // update DOM to reflect the new state
-  askButton.addEventListener('click', () => {
+askButton.addEventListener('click', () => {
 
     // copy question to display
     const question = askedQuestion.value;
